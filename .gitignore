@@ -1,20 +1,31 @@
-# Build output
-/bin/
-/build/
-/out/
-/target/
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
 
-# IDE stuff
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
 .classpath
 .project
 .settings/
+
+# IntelliJ IDEA
 .idea/
 *.iml
+out/
+
+# VS Code
 .vscode/
 
-# OS cruft
+# Mac
 .DS_Store
-Thumbs.db
-
-# Logs
-*.log
